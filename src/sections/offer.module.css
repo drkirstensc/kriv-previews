@@ -49,7 +49,7 @@ html:has(.root) { scroll-behavior: smooth; }
 .root :where(a) { color: var(--accent); text-underline-offset: 4px; }
 .root :where(a):focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 
-.top, .main, .foot { max-width: 1120px; margin-inline: auto; padding-inline: 20px; }
+.top, .main, .foot { max-width: none; margin-inline: auto; padding-inline: 20px; }
 .top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 20px; padding-block: 18px; border-bottom: 1px solid var(--line); font-size: 0.85rem; }
 .top a { display: inline-flex; align-items: center; min-height: 44px; color: var(--ink); }
 .kriv { font-family: var(--font-body); font-size: 1.5rem; font-weight: 700; letter-spacing: -0.05em; line-height: 1; }
@@ -126,7 +126,7 @@ html:has(.root) { scroll-behavior: smooth; }
 
 /* ---------- Sticky section menu with a reading-progress line ---------- */
 .sectionNav { position: sticky; top: 0; z-index: 30; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
-.sectionNav > div { max-width: 1120px; margin-inline: auto; padding-inline: 12px; display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
+.sectionNav > div { max-width: none; margin-inline: auto; padding-inline: 12px; display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
 .sectionNav > div::-webkit-scrollbar { display: none; }
 .sectionNav a { flex: none; display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 12px; font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.16em; text-transform: uppercase; text-decoration: none; color: var(--muted); border-bottom: 2px solid transparent; transition: color 0.2s, border-color 0.2s; }
 .sectionNav a:hover { color: var(--ink); }

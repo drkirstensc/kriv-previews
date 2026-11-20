@@ -32,10 +32,9 @@
   "story": "dental-journey",
   "storyStyle": {
     "audience": "adults",
-    "seed": "d4",
-    "lore": "chapters",
-    "brand": "top-centre",
-    "sound": "plain"
+    "theme": "porcelain-teal",
+    "seed": "a7f3c2e1",
+    "brand": "top-centre"
   },
   "design": {},
   "hero": {

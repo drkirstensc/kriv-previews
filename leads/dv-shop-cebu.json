@@ -24,12 +24,18 @@
       "instagram": "https://www.instagram.com/dvshopcebu/"
     },
     "hours": [
-      { "days": "Daily", "time": "11am to 8pm" }
+      {
+        "days": "Daily",
+        "time": "11am to 8pm"
+      }
     ]
   },
   "story": "sneaker-journey",
   "storyCast": "off",
-  "storyStyle": { "seed": "dv-shop-cebu-3", "sound": "plain", "genre": "plain", "lore": "stops", "words": "beside", "side": "right" },
+  "storyStyle": {
+    "theme": "oxblood-peach",
+    "seed": "5e91bd27"
+  },
   "design": {},
   "brand": {
     "logo": "https://dvshopcebu.com/cdn/shop/files/dv_shop_logo.png",
@@ -38,8 +44,14 @@
       "https://dvshopcebu.com/cdn/shop/files/IMG_5526.jpg"
     ],
     "photoCredits": [
-      { "provider": "Business", "source": "https://dvshopcebu.com/" },
-      { "provider": "Business", "source": "https://dvshopcebu.com/" }
+      {
+        "provider": "Business",
+        "source": "https://dvshopcebu.com/"
+      },
+      {
+        "provider": "Business",
+        "source": "https://dvshopcebu.com/"
+      }
     ]
   },
   "hero": {
@@ -52,10 +64,22 @@
     "body": "DV Shop Cebu started in 2020 as an online sneaker shop, driven by a love of streetwear culture and a mission to bring authentic pairs to fellow sneakerheads. In 2022 it opened its own physical store in Celadon Town, Lapu-Lapu City: a spot for sneaker lovers to connect, shop and experience the culture in person, with DV Cafe pouring coffee inside."
   },
   "faqs": [
-    { "q": "Are the pairs authentic?", "a": "Every pair is inspected, and DV Shop works directly with trusted suppliers. Legit pairs only." },
-    { "q": "Can I pay cash on delivery?", "a": "Yes, nationwide. Card, e-wallets, BPI, GCash, Maya and SPayLater are accepted too." },
-    { "q": "Do you ship outside Cebu?", "a": "DV Shop ships nationwide and worldwide." },
-    { "q": "When is the store open?", "a": "Daily, 11am to 8pm, at Unit 14 G/F Bldg 2, Celadon Town, Brgy. Pajac, Lapu-Lapu City." }
+    {
+      "q": "Are the pairs authentic?",
+      "a": "Every pair is inspected, and DV Shop works directly with trusted suppliers. Legit pairs only."
+    },
+    {
+      "q": "Can I pay cash on delivery?",
+      "a": "Yes, nationwide. Card, e-wallets, BPI, GCash, Maya and SPayLater are accepted too."
+    },
+    {
+      "q": "Do you ship outside Cebu?",
+      "a": "DV Shop ships nationwide and worldwide."
+    },
+    {
+      "q": "When is the store open?",
+      "a": "Daily, 11am to 8pm, at Unit 14 G/F Bldg 2, Celadon Town, Brgy. Pajac, Lapu-Lapu City."
+    }
   ],
   "seo": {
     "title": "DV Shop Cebu, concept preview by KRIV",
